@@ -1,0 +1,60 @@
+{
+  "name": "UiBank Loan Academy",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[20.4.0-beta.889657]",
+    "UiPath.Testing.Activities": "[1.0.0-beta.887571]",
+    "UiPath.UIAutomation.Activities": "[20.4.1]",
+    "UiPath.UIAutomationNext.Activities": "[20.4.0-preview]",
+    "UiPath.Vision": "[2.0.3]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.4.0.0",
+  "projectVersion": "1.0.80958553",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "307fa63b-f771-428c-8be9-42ef59c45e3c",
+        "fileName": "Medium Volume Loan.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "b3f27851-abb8-4cb3-9f49-1162b25a0a5a",
+        "dataVariationFilePath": ".variations\\Loan Quotes_Loan Quotes.json",
+        "fileName": "Multiple TestCases.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
