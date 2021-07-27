@@ -22,7 +22,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1208,1208</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1208,1112</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Multiple_TestCases_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -90,20 +90,20 @@
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Multiple_TestCases" sap:VirtualizedContainerService.HintSize="736,1043" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Multiple_TestCases" sap:VirtualizedContainerService.HintSize="580,947" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Given" sap:VirtualizedContainerService.HintSize="694,83" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Given" sap:VirtualizedContainerService.HintSize="538,83" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </Sequence>
-    <Sequence DisplayName="When" sap:VirtualizedContainerService.HintSize="694,310" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence DisplayName="When" sap:VirtualizedContainerService.HintSize="538,441" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -119,14 +119,15 @@
         </ui:InvokeWorkflowFile.Arguments>
       </ui:InvokeWorkflowFile>
       <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Just a test message&quot;]" />
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;2nd test message&quot;]" />
     </Sequence>
-    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="694,478" sap2010:WorkflowViewState.IdRef="Sequence_4">
+    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="538,251" sap2010:WorkflowViewState.IdRef="Sequence_4">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[LoanGranted]" sap:VirtualizedContainerService.HintSize="652,386" sap2010:WorkflowViewState.IdRef="Switch`1_2">
+      <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[LoanGranted]" sap:VirtualizedContainerService.HintSize="496,159" sap2010:WorkflowViewState.IdRef="Switch`1_2">
         <uta:VerifyControlAttribute x:Key="Yes" ContinueOnFailure="True" sap:VirtualizedContainerService.HintSize="612,180" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_1" Operator="Equality" OutputArgument="Value" TakeScreenshotInCaseOfFailingAssertion="True">
           <uta:VerifyControlAttribute.ActivityToTest>
             <ActivityAction>
